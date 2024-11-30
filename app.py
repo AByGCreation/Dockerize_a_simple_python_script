@@ -1,9 +1,10 @@
 ### Find your buddy! 
 #### Here is one way to create an app that simply create random groups of people
 import random 
+import pandas as pd
 
 ### Create a list of buddies in your class 
-GROUPS_SIZE = 8
+GROUPS_SIZE = 2
 buddies = [
     "Alex", 
     "Antoine", 
@@ -35,3 +36,11 @@ print("\n")
 
 for i, group in enumerate(groups):
     print(f"group {i}: {group}")
+
+
+df = pd.DataFrame(groups)
+df.to_csv("groups.csv", index=False)
+
+print(df)
+
+
