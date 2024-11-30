@@ -3,7 +3,7 @@
 import random 
 
 ### Create a list of buddies in your class 
-GROUPS_SIZE = 2
+GROUPS_SIZE = 8
 buddies = [
     "Alex", 
     "Antoine", 
@@ -11,7 +11,7 @@ buddies = [
     "Anna", 
     "Célia", 
     "Roseline",
-    "Marie",
+    "Stephanie",
     "David", 
     "Jocelyne",
     "Joséphine",
